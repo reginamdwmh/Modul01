@@ -35,6 +35,6 @@ public class DataTypes {
         System.out.println("Nilai PBO : " + nilaiAbjad);
         System.out.println("Cantik : " + cantik);
 
-        JOptionPane.showMessageDialog(null,"Hai, "+ namaDepan + namaBelakang);
+        namaBelakang = JOptionPane.showInputDialog("Nama Belakang : ");
     }
 }
